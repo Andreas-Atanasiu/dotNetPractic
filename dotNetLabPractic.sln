@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetLabPractic", "dotNetLabPractic\dotNetLabPractic.csproj", "{EFCCB7F9-0FC5-4DA7-98C1-2EC848DEFB31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTests", "WebApiTests\WebApiTests.csproj", "{06F6691F-C3F3-457A-8255-F9951D1B4C89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EFCCB7F9-0FC5-4DA7-98C1-2EC848DEFB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFCCB7F9-0FC5-4DA7-98C1-2EC848DEFB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFCCB7F9-0FC5-4DA7-98C1-2EC848DEFB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F6691F-C3F3-457A-8255-F9951D1B4C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F6691F-C3F3-457A-8255-F9951D1B4C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F6691F-C3F3-457A-8255-F9951D1B4C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F6691F-C3F3-457A-8255-F9951D1B4C89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
