@@ -19,9 +19,22 @@ namespace dotNetLabPractic.Models
             {
                 entity.HasIndex(u => u.Username).IsUnique();
             });
+
+            builder.Entity<Packet>(entity => {
+                entity.HasIndex(p => p.Code).IsUnique();
+            });
+
+            builder.Entity<PacketHistory>()
+            .HasOne(p => p.Packet)
+            .WithMany(h => h.PacketHistories)
+            .OnDelete(DeleteBehavior.Cascade);
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<User>   Users   { get; set; }
+        public DbSet<Packet> Packets { get; set; }
+        public DbSet<PacketHistory> PacketHistories { get; set; }
+
+
 
     }
 }

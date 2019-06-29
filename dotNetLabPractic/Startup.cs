@@ -103,7 +103,7 @@ namespace dotNetLabPractic
             });
 
             //services.AddScoped<IExpenseService, ExpenseService>();
-            //services.AddScoped<ICommentService, CommentsService>();
+            services.AddScoped<IPacketsService, PacketsService>();
             services.AddScoped<IUsersService, UsersService>();
             services.AddScoped<IRegisterValidator, RegisterValidator>();
         }
